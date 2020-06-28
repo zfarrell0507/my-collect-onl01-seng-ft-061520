@@ -13,7 +13,6 @@ my_collect(array) do |name|
   name.split(" ").first
 end
   
-  
 end
 
 
@@ -71,3 +70,16 @@ describe "my_collect" do
   end
 end
 
+
+my_collect(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+
+
+
+def my_collect(languages) || my_collect(students)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << yield(array[i])
+    i += 1
+  end
+  collection 
