@@ -1,9 +1,7 @@
 
-
-def my_collect(languages) 
-
-    my_collect(array) do |name|
-      name.split(" ").first
+      array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+def my_collect(languages) do |language|
+      language.split(" ").first
     end
   
 end
