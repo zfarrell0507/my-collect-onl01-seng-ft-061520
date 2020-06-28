@@ -3,7 +3,7 @@ students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 def my_collect (languages)
   lang = []
   languages.each do |language|
-    lang << language.split(" ").first
+    lang << language.upcase.split(" ").first
   end
   lang
 end
