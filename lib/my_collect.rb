@@ -4,8 +4,8 @@ def my_collect (languages)
   lang = []
   languages.each do |language|
     lang << language.split(" ").first
-    lang.upcase
   end
+  puts lang.upcase
   lang
 end
 my_collect(languages)
