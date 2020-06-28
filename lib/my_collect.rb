@@ -7,11 +7,11 @@ def my_collect(languages) || my_collect(students)
     collection << yield(array[i])
     i += 1
   end
-  collection 
-  array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
-  name.split(" ").first
-end
+    collection 
+      array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+    my_collect(array) do |name|
+      name.split(" ").first
+    end
   
 end
 
