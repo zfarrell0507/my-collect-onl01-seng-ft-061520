@@ -1,5 +1,5 @@
-
-      array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+languages) { ['ruby', 'javascript', 'python', 'objective-c'] }
+  let(:students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 def my_collect (languages)
   lang = []
   languages.each do |language|
