@@ -1,5 +1,6 @@
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
+
 def my_collect (languages)
   lang = []
   languages.each do |language|
@@ -8,9 +9,7 @@ def my_collect (languages)
   lang.each do |name|
   name.upcase
 end
-my_collect(languages) do |language|
-      language.upcase
-    end
+
 
 my_collect(languages)
 
