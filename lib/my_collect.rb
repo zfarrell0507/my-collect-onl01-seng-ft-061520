@@ -8,7 +8,10 @@ def my_collect(languages) || my_collect(students)
     i += 1
   end
   collection 
-  
+  array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+my_collect(array) do |name|
+  name.split(" ").first
+end
   
   
 end
