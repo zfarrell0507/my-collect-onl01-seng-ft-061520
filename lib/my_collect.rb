@@ -12,3 +12,4 @@ def my_collect(languages)
   end
 end
 my_collect(languages)
+my_collect(students)
