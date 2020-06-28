@@ -8,7 +8,9 @@ def my_collect (languages)
   lang.each do |name|
   name.upcase
 end
-
+my_collect(languages) do |language|
+      language.upcase
+    end
 
 my_collect(languages)
 
